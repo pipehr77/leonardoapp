@@ -6,6 +6,7 @@
     <title>LeonardoApp</title>
     <link rel="stylesheet" href="./assets/styles/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
     
@@ -17,7 +18,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
@@ -29,6 +30,19 @@
                   </li>
                   <li class="nav-item">
                     <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="avatar" role="button" data-bs-toggle="dropdown"></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#" id="botonsalir">Salir</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item mt-2">
+                    <i class="bi bi-person-circle text-white fw-bold mt-5 fs-2"></i>
                   </li>
                 </ul>
               </div>
@@ -45,12 +59,160 @@
             <div class="p-4">
                 <h5>Leonardo</h5>
                 <p>Bienvenido, soy Leonardo...</p>
+                <hr>
+                <hr>
+                <p class="text-start">Hola como estas?</p>
+                <p class="text-end text-primary fw-bold">Excelente</p>
+                <div class="textoChat">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-8"><input type="" class="form-control my-3" id="textoChat"></div>
+                      <div class="col-4 mt-3"><i class="bi bi-send fs-3"></i></div>
+                    </div>
+                  </div>
+                </div>
+                
             </div>
         </div>
-
+        <section class="container-fluid g-0">
+          <div class="row">
+            <div class="col-12 my-5">
+              <img src="./assets/img/sura.jpg" alt="foto" class="img-fluid">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8">
+              <h3>TITULO</h3>
+              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quas vel enim quidem, aliquam dolores beatae libero debitis reiciendis velit adipisci neque itaque sapiente expedita sint! Molestias odit expedita facere.</P>
+            </div>
+            <div class="col-4">
+              <h3>TITULO</h3>
+              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quas vel enim quidem, aliquam dolores beatae libero debitis reiciendis velit adipisci neque itaque sapiente expedita sint! Molestias odit expedita facere.</P>
+            </div>
+          </div>
+        </section>
     </main>
     <footer>
-
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <h4>LeonardApp</h4>
+            <hr>
+            
+            <img src="./assets/img/mascota.webp" alt="logoapp" class="img-fluid w-75">
+            <br>
+            <br>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit porro officia cum magnam rerum reprehenderit sit culpa, reiciendis consequuntur repellat, fuga, iste doloremque ex molestiae. Voluptatibus voluptates perferendis neque aut. 
+            </div>
+          </div>
+          <div class="col">
+            <h4>SURA</h4>
+            <hr>
+            <div class="container text-center">
+              <div class="row g-2">
+                <div class="col-6">
+                  <div class="p-5">
+                    <h4 class="text-center">Seguros</h4>
+                    <i class="bi bi-shield-fill-plus text-center mt-5 fs-2"></i>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="p-5">
+                    <h4 class="text-center">Ir</h4>
+                    <a href="https://www.segurossura.com.co/paginas/inicio.aspx"><i class="bi bi-box-arrow-in-right text-center mt-5 fs-2"></i></a>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="p-5">
+                    <h4 class="text-center">ARL</h4>
+                    <i class="bi bi-person-workspace text-center mt-5 fs-2"></i>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="p-5">
+                    <h4 class="text-center">Ir</h4>
+                    <a href="https://www.arlsura.com/"><i class="bi bi-box-arrow-in-right text-center mt-5 fs-2"></i></a>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="p-5">
+                    <h4 class="text-center">Salud</h4>
+                    <i class="bi bi-heart-pulse-fill text-center mt-5 fs-2"></i>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="p-5">
+                    <h4 class="text-center">Ir</h4>
+                    <a href="https://www.epssura.com/"><i class="bi bi-box-arrow-in-right text-center mt-5 fs-2"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <h4>Acerca de</h4> 
+            <hr>
+            <div class="container text-center">
+              <div class="row g-2">
+                <div class="col-6">
+                  <div class="p-4">
+                    <h4 class="text-center">vanemocz</h4>
+                    <img class="img-fluid w-25" src="./assets/img/25231.png" alt="logoGitHub">
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="p-4">
+                    <h4 class="text-center">Ir</h4>
+                    <a href="https://github.com/vanemocz"><i class="bi bi-box-arrow-in-right text-center mt-5 fs-2"></i></a>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="p-4">
+                    <h4 class="text-center">pipehr77</h4>
+                    <img class="img-fluid w-25" src="./assets/img/25231.png" alt="logoGitHub">
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="p-4">
+                    <h4 class="text-center">Ir</h4>
+                    <a href="https://github.com/pipehr77"><i class="bi bi-box-arrow-in-right text-center mt-5 fs-2"></i></a>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="p-4">
+                    <h4 class="text-center">LuisaLeguizamo</h4>
+                    <img class="img-fluid w-25" src="./assets/img/25231.png" alt="logoGitHub">
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="p-4">
+                    <h4 class="text-center">Ir</h4>
+                    <a href="https://github.com/LuisaLeguizamo"><i class="bi bi-box-arrow-in-right text-center mt-5 fs-2"></i></a>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="p-4">
+                    <h4 class="text-center">JuanDavidMarin98</h4>
+                    <img class="img-fluid w-25" src="./assets/img/25231.png" alt="logoGitHub">
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="p-4">
+                    <h4 class="text-center">Ir</h4>
+                    <a href="https://github.com/JuanDavidMarin98"><i class="bi bi-box-arrow-in-right text-center mt-5 fs-2"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div>
+          <h4>Todos los derechos reservados <i class="bi bi-c-circle"></i></h4>
+          <h5>Con el paso del tiempo el desarrollo tecnologico a crecido considerablemente, en diferentes tecnicas y actividades, lo que representa para nosotros un reto de actualización en este campo, tanto para nuestra vida laboral como personal despertando asi un interes por esto, por lo que decidimos estudiar la tecnica laboral en desarrollo de software buscando nuevos aprendizajes desde el ser y el saber. Con lo anterior avanzar en el ambito profesional y economico.</h5>
+        </div>  
+      </div>
     </footer>
 
 

@@ -28,3 +28,8 @@
     border-radius: 10px;
     z-index: 1;
 }
+.textoChat{
+    position: absolute;
+    bottom: 0%;
+    width: 90%;
+}
